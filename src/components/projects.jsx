@@ -4,6 +4,7 @@ import TodoImage from "../images/surja-sen-das-raj-y16ku6si6xI-unsplash.jpg";
 import NoteImage from "../images/jess-bailey-cvUIv9j5wDg-unsplash.jpg";
 import QuizImage from "../images/vadim-bogulov-MfBnqUOz_qY-unsplash.jpg";
 import MakeUPImage from "../images/x-sLGYaQ_stMM.jpg";
+import Logo from '../images/Logo.svg'
 
 function Projects() {
   return (
@@ -28,6 +29,12 @@ function Projects() {
         description="Built using Next js and tailwindCss"
         image={MakeUPImage}
         Url="https://makeup-template.vercel.app/"
+      />
+          <Project
+        projectName="Zigara"
+        description="Built using React"
+        image={ Logo }
+        Url="https://zigara-logistics.netlify.app/"
       />
     </section>
   );
